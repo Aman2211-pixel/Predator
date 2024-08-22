@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+
+.section {
+    padding: 100px;
+    background: url(bg-1.svg);
+
+}
+
+#form {
+    margin: auto;
+    padding: 20px;
+    width: 30%;
+    max-width: 400px;
+    min-width: 300px;
+    text-align: center;
+    box-shadow: 0px 5px 20px 0px rgb(19, 19, 19);
+    border-radius: 20px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+#form .logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+#form .text {
+    text-align: start;
+}
+
+#form .text p {
+    padding-left: 30px;
+}
+
+#form h2 {
+    font-size: 41px;
+    color: rgb(115, 25, 145);
+    padding: 20px;
+}
+
+#form .inputfield {
+    position: relative;
+    border-radius: 20px;
+    background-color: rgb(224, 224, 225);
+    margin-top: 30px;
+    align-items: center;
+}
+
+#form .inputfield input {
+    border: 0;
+    outline: 0;
+    width: 80%;
+    font-size: 15px;
+    background-color:rgb(224, 224, 225);
+    padding: 18px 15px;
+}
+
+#form input::selection {
+    background-color: rgb(115, 25, 145);
+    color: aliceblue;
+}
+.error{
+    position: absolute;
+    color: red;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.inputfield i {
+    color: #999;
+    padding-left: 14px;
+}
+
+#form p {
+    text-align: center;
+    margin: 20px 0px 18px 0px;
+}
+
+#form p .abc {
+    color: rgb(115, 25, 145);
+    cursor: pointer;
+}
+
+.button .signupbtn {
+    cursor: pointer;
+    background-color: rgb(115, 25, 145);
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+}
